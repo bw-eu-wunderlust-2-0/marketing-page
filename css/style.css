@@ -406,7 +406,7 @@ color: #333;
 
 /* About page */
 
-.wunderappteam{
+/* .wunderappteam{
   padding: 40px 0;
   background: #f1f1f1;
   color: #434343;
@@ -454,7 +454,85 @@ color: #333;
 .stars{
   color: #1d2671;
   margin-bottom: 20px;
+} */
+
+.team-section{
+  background: #c33764;
+  text-align: center;
 }
+.inner-width{
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 40px;
+  color: #30336b;
+  overflow: hidden;
+}
+.team-section h1{
+  font-size: 40px;
+  text-transform: uppercase;
+  /* display: inline-block; */
+  border-bottom: 4px solid;
+  padding-bottom: 10px;
+  margin: 26px auto;
+}
+
+.row {
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+.col {
+    box-sizing: border-box;
+    
+   
+}
+.pe{
+  float: left;
+  width: calc(100% / 3);
+  overflow: hidden;
+  padding: 40px 0;
+  transition: 0.4s;
+}
+.pe:hover{
+  background: #ddd;
+}
+.pe img{
+  width: 300px;
+  height: 300px;
+}
+.p-name{
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+.p-des{
+  font-style: italic;
+  color:#1d2671;
+}
+.p-sm{
+  margin-top: 15px;
+}
+.p-sm a{
+  margin: 0 4px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  transition: 0.4s;
+}
+.p-sm a:hover{
+  transform: scale(1.3);
+}
+.p-sm a i{
+ 
+  line-height: 60px;
+}
+@media screen and (max-width:500px) {
+  .pe{
+    width: 100%;
+  }
+} 
+
+
 
 /* About page  media queries*/
 
