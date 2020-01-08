@@ -1,0 +1,39 @@
+// Mixin & Parametric Mixins 
+
+
+
+
+
+.displayFlex(@direction, @justify, @align){
+    display: flex;
+    flex-direction: @direction;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+.btnStyle {
+    background-color: @button-sm;
+    border-radius: 15px;
+    text-align: center;
+    width: 90%;
+    height: 15%;
+    margin-bottom: 15%;
+    font-size: 2rem;
+    color: white;
+}
+
+/* Animation Style */
+.social-buttons a:hover i{
+    background: linear-gradient(45deg,#22a6b3,#30336b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: scale(2.2);
+
+    .social-buttons a i{
+        transition: 0.3s ease-in;
+      }
+
+      .social-buttons a:hover::before{
+        transform: scale(0);
+      }
+  }
