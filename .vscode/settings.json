@@ -1,3 +1,4 @@
 {
-    "liveServer.settings.multiRootWorkspaceName": "marketing-page"
+    "liveServer.settings.multiRootWorkspaceName": "marketing-page",
+    "liveServer.settings.port": 5501
 }
