@@ -161,7 +161,7 @@ color: #333;
 .btn {
   display: inline-block;
   background: var(#1d2671);
-  color: #fff;
+  /* color: #fff; */
   padding: 0.8rem 1.5rem;
   border: none;
   cursor: pointer;
